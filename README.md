@@ -1,5 +1,3 @@
-# Cromulent-WordPress-theme
-
 Cromulent WordPress theme
 ======
 **Cromulent** it’s a perfectly cromulent WordPress theme
