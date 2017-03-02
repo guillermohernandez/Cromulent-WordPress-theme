@@ -1,6 +1,6 @@
 Cromulent WordPress theme
 ======
-**Cromulent** it’s a perfectly cromulent WordPress theme
+**Cromulent**: it’s a perfectly cromulent WordPress theme
 
 ## Todo
 - [ ] Create Demo
