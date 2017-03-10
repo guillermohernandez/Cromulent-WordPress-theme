@@ -1,0 +1,36 @@
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+::selection {
+    background: $brand-primary;
+    color: #fff;
+    text-shadow: none;
+}
+
+.entry-title {
+    color: #444;
+    font-weight: 800;
+    letter-spacing: -.07em;
+    line-height: .9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px white, 2px 2px 0px #AAA;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    margin-bottom: .6em;
+}
+
+#secondary img, article img, figure, img, img.wp-post-image {
+    max-width: 40%;
+    height: auto;
+    float: left;
+    padding-right: 40px;
+}

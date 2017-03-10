@@ -2,31 +2,45 @@
 /**
  * The template for displaying the footer.
  *
- * Contains the closing of the id #maincontentcontainer div and all content after.
- * There are also four footer widgets displayed. These will be displayed from
- * one to four columns, depending on how many widgets are active.
+ * Contains the closing of the #content div and all content after
  *
- * @package Cromulent
- * @since Cromulent 1.0
+ * @package understrap
  */
+
+$the_theme = wp_get_theme();
+$container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-	<?php	do_action( 'cromulent_after_woocommerce' ); ?>
-	<div id="footercontainer">
+<?php get_sidebar( 'footerfull' ); ?>
 
-		<?php get_sidebar( 'footer' ); ?>
+<div class="wrapper" id="wrapper-footer">
 
-		<div class="grid-container smallprint">
-			<div class="grid-100">
-				<?php /* echo cromulent_get_credits() */?>
-			</div> <!-- /.grid-100 -->
-		</div> <!-- /.grid-container.smallprint -->
+	<div class="<?php echo esc_html( $container ); ?>">
 
-	</div> <!-- /.footercontainer -->
+		<div class="row">
 
-</div> <!-- /.#wrapper.hfeed.site -->
+			<div class="col-md-12">
+
+				<footer class="site-footer" id="colophon">
+
+					<div class="site-info">
+
+					</div><!-- .site-info -->
+
+				</footer><!-- #colophon -->
+
+			</div><!--col end -->
+
+		</div><!-- row end -->
+
+	</div><!-- container end -->
+
+</div><!-- wrapper end -->
+
+</div><!-- #page -->
 
 <?php wp_footer(); ?>
+
 </body>
 
 </html>

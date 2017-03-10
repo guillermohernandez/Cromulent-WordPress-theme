@@ -1,44 +1,61 @@
 <?php
 /**
- * The main template file.
+ * The template for displaying all pages.
  *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site will use a
+ * different template.
  *
- * @package Cromulent
- * @since Cromulent 1.0
+ * @package understrap
  */
 
-get_header(); ?>
+get_header();
 
-<div id="maincontentcontainer">
-	<div id="primary" class="grid-container site-content" role="main">
+$container   = get_theme_mod( 'understrap_container_type' );
+$sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
-		<div class="grid-70 tablet-grid-70">
+?>
 
-			<?php if ( have_posts() ) : ?>
+<div class="wrapper" id="page-wrapper">
 
-				<?php // Start the Loop ?>
+	<div class="<?php echo esc_html( $container ); ?>" id="content" tabindex="-1">
+
+		<div class="row">
+
+			<!-- Do the left sidebar check -->
+			<?php get_template_part( 'global-templates/left-sidebar-check', 'none' ); ?>
+
+			<main class="site-main" id="main">
+
 				<?php while ( have_posts() ) : the_post(); ?>
-					<?php get_template_part( 'content', 'page' ); ?>
+
+					<?php get_template_part( 'loop-templates/content', 'page' ); ?>
 
 					<?php
-					// If comments are open or we have at least one comment, load up the comment template
-					if ( comments_open() || '0' != get_comments_number() ) {
-						comments_template( '', true );
-					}
+					// If comments are open or we have at least one comment, load up the comment template.
+					if ( comments_open() || get_comments_number() ) :
+						comments_template();
+					endif;
 					?>
-				<?php endwhile; ?>
 
-			<?php endif; // end have_posts() check ?>
+				<?php endwhile; // end of the loop. ?>
 
-		</div> <!-- /.grid-70 -->
-		<?php get_sidebar(); ?>
+			</main><!-- #main -->
 
-	</div> <!-- /#primary.grid-container.site-content -->
-</div> <!-- /#maincontentcontainer -->
+		</div><!-- #primary -->
+
+		<!-- Do the right sidebar check -->
+		<?php if ( 'right' === $sidebar_pos || 'both' === $sidebar_pos ) : ?>
+
+			<?php get_sidebar( 'right' ); ?>
+
+		<?php endif; ?>
+
+	</div><!-- .row -->
+
+</div><!-- Container end -->
+
+</div><!-- Wrapper end -->
 
 <?php get_footer(); ?>

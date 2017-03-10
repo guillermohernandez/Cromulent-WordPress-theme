@@ -1,31 +1,83 @@
 <?php
 /**
- * The template for displaying 404 pages (Not Found).
+ * The template for displaying 404 pages (not found).
  *
- * @package Cromulent
- * @since Cromulent 1.0
+ * @package understrap
  */
 
-get_header(); ?>
+get_header();
+?>
+<div class="wrapper" id="404-wrapper">
 
-<div id="maincontentcontainer">
-	<div id="primary" class="grid-container site-content" role="main">
+	<div class="container" id="content">
 
-		<div class="grid-100">
+		<div class="row">
 
-			<article id="post-0" class="post error404 no-results not-found">
-				<header class="entry-header">
-					<h1 class="entry-title"><i class="fa fa-frown-o fa-lg"></i> <?php esc_html_e( 'Uh Oh! This is somewhat embarrassing!', 'cromulent' ); ?></h1>
-				</header>
-				<div class="entry-content">
-					<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'cromulent' ); ?></p>
-					<?php get_search_form(); ?>
-				</div><!-- /.entry-content -->
-			</article><!-- /#post -->
+			<div class="content-area" id="primary">
 
-		</div> <!-- /.grid-100 -->
+				<main class="site-main" id="main" role="main">
 
-	</div> <!-- /#primary.grid-container.site-content -->
-</div> <!-- /#maincontentcontainer -->
+					<section class="error-404 not-found">
+
+						<header class="page-header">
+
+							<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.',
+							'understrap' ); ?></h1>
+
+						</header><!-- .page-header -->
+
+						<div class="page-content">
+
+							<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?',
+							'understrap' ); ?></p>
+
+							<?php get_search_form(); ?>
+
+							<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
+
+							<?php if ( understrap_categorized_blog() ) : // Only show the widget if site has multiple categories. ?>
+
+								<div class="widget widget_categories">
+
+									<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'understrap' ); ?></h2>
+
+									<ul>
+										<?php
+										wp_list_categories( array(
+											'orderby'    => 'count',
+											'order'      => 'DESC',
+											'show_count' => 1,
+											'title_li'   => '',
+											'number'     => 10,
+										) );
+										?>
+									</ul>
+
+								</div><!-- .widget -->
+
+							<?php endif; ?>
+
+							<?php
+							/* translators: %1$s: smiley */
+							$archive_content = '<p>' . sprintf( __( 'Try looking in the monthly archives. %1$s',
+							'understrap' ), convert_smilies( ':)' ) ) . '</p>';
+							the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
+							?>
+
+							<?php the_widget( 'WP_Widget_Tag_Cloud' ); ?>
+
+						</div><!-- .page-content -->
+
+					</section><!-- .error-404 -->
+
+				</main><!-- #main -->
+
+			</div><!-- #primary -->
+
+		</div> <!-- .row -->
+
+	</div><!-- Container end -->
+
+</div><!-- Wrapper end -->
 
 <?php get_footer(); ?>
