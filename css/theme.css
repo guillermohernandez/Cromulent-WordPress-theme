@@ -9241,6 +9241,11 @@ ul {
   float: left;
   padding-right: 40px; }
 
+#wrapper-footer-full, #wrapper-static-hero {
+  color: #9ba1a6;
+  background-color: #4c4c4c;
+  background: url(/img/dvsup.png); }
+
 /*
 * Use existing Bootstrap 4 classes and
 * variables to extend - override CF7 style
