@@ -25,33 +25,42 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 						<?php get_template_part( 'loop-templates/content', 'blank' ); ?>
 
-<?php 
+							<?php 
 
-// args
-$args = array(
-	'numberposts'	=> -1,
-	'post_type'		=> 'portfolio',
-);
+							// args
+							$args = array(
+								'numberposts'	=> -1,
+								'post_type'		=> 'portfolio',
+							);
 
 
-// query
-$the_query = new WP_Query( $args );
+							// query
+							$the_query = new WP_Query( $args );
 
-?>
-<?php if( $the_query->have_posts() ): ?>
-	<ul>
-	<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
-	<?php the_title(); ?>
-		<li>
-			<a href="<?php the_permalink(); ?>">
-				<img src="<?php the_field('image'); ?>" />
-			</a>
-		</li>
-	<?php endwhile; ?>
-	</ul>
-<?php endif; ?>
+							?>
+							<?php if( $the_query->have_posts() ): ?>
+								<ul>
+								<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
+								<?php the_title(); ?>
+									<li>
+										<a href="<?php the_permalink(); ?>">
+											<img src="<?php the_field('portfolio_img_1'); ?>" />
+										</a>
+									</li>
+									<li>
+									<img src="<?php the_field('portfolio_img_2'); ?>" />
+									</li>
+									<li>
+									<img src="<?php the_field('portfolio_img_3'); ?>" />
+									</li>
+									<li>
+									<img src="<?php the_field('portfolio_img_4'); ?>" />
+									</li>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
 
-<?php wp_reset_query();	 // Restore global post data stomped by the_post(). ?>
+							<?php wp_reset_query();	 // Restore global post data stomped by the_post(). ?>
 
 						<?php
 						// If comments are open or we have at least one comment, load up the comment template.
