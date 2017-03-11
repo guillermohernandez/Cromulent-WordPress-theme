@@ -9237,6 +9237,9 @@ ul {
   -moz-backface-visibility: hidden;
   margin-bottom: .6em; }
 
+.entry-content {
+  font-size: 24px; }
+
 #secondary img,
 article img,
 figure,
