@@ -20,11 +20,9 @@ ul {
     text-transform: uppercase;
     text-decoration: none;
     text-shadow: 1px 1px 0px white, 2px 2px 0px #AAA;
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    -o-backface-visibility: hidden;
-    backface-visibility: hidden;
     margin-bottom: .6em;
 }
 
