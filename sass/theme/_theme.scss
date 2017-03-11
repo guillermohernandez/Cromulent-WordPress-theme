@@ -2,6 +2,10 @@ a:hover {
     text-decoration: none;
 }
 
+body {
+    font-family: $body-font;
+}
+
 ul {
     list-style-type: none;
 }
@@ -26,14 +30,19 @@ ul {
     margin-bottom: .6em;
 }
 
-#secondary img, article img, figure, img, img.wp-post-image {
+#secondary img,
+article img,
+figure,
+img,
+img.wp-post-image {
     max-width: 40%;
     height: auto;
     float: left;
     padding-right: 40px;
 }
 
-#wrapper-footer-full, #wrapper-static-hero {
+#wrapper-footer-full,
+#wrapper-static-hero {
     color: #9ba1a6;
     background-color: #4c4c4c;
     background: url(/img/dvsup.png);
