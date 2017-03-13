@@ -9244,13 +9244,13 @@ ul {
 
 .widget-title {
   font-family: "Raleway", sans-serif;
-  color: #444;
+  color: #01C0AB;
   font-weight: 800;
   letter-spacing: -.07em;
   line-height: .9em;
   text-transform: uppercase;
   text-decoration: none;
-  text-shadow: 1px 1px 0px white, 2px 2px 0px #AAA;
+  text-shadow: 1px 1px 0px #FCFCFC, 2px 2px 0px #AAA;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -9271,9 +9271,7 @@ img.wp-post-image {
 
 #wrapper-footer-full,
 #wrapper-static-hero {
-  color: #FCFCFC;
-  background-color: #23272D;
-  background: url(../img/dvsup.png); }
+  color: #FCFCFC; }
 
 /*
 * Use existing Bootstrap 4 classes and
