@@ -9351,13 +9351,15 @@ a:hover {
   transition: opacity 1s ease; }
 
 article {
-  padding-bottom: 10px; }
+  padding-bottom: 40px; }
 
 body {
   font-family: "Open Sans", sans-serif;
   color: #FCFCFC;
   line-height: 1.5;
-  padding-bottom: 70px; }
+  padding-bottom: 70px;
+  letter-spacing: -.05rem;
+  margin: 0 0 1rem; }
 
 ul {
   list-style-type: none; }
