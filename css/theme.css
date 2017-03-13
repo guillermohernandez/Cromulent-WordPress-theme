@@ -9361,6 +9361,12 @@ body {
   letter-spacing: -.05rem;
   margin: 0 0 1rem; }
 
+div#right-sidebar {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: .5rem;
+  border-radius: .25em;
+  display: inline-block; }
+
 ul {
   list-style-type: none; }
 
@@ -9390,6 +9396,12 @@ h2.entry-title {
 .entry-content {
   font-size: 24px;
   color: #FCFCFC; }
+
+.entry-meta {
+  padding-bottom: 5px; }
+
+h3.widget-title {
+  font-size: 1.75rem; }
 
 .social-nav a:hover {
   opacity: 0.6;
