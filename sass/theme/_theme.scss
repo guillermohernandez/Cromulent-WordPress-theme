@@ -142,6 +142,7 @@
  }
  
  a:hover {
+     color: $hover-color;
      text-decoration: none;
      opacity: 0.9;
      -webkit-transition: opacity 1s ease;
