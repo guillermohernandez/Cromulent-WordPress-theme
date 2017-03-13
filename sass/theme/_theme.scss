@@ -149,7 +149,6 @@ a:hover {
     opacity: 0.9;
     -webkit-transition: opacity 1s ease;
     -moz-transition: opacity 1s ease;
-    -o-transition: opacity 1s ease;
     -ms-transition: opacity 1s ease;
     transition: opacity 1s ease;
 }
@@ -161,8 +160,9 @@ article {
 body {
     font-family: $body-font;
     color: $body-font-color;
+    background-color: $background-color;
     line-height: 1.5;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
     letter-spacing: -.05rem;
     margin: 0 0 1rem;
 }
@@ -189,8 +189,8 @@ h2.entry-title {
     font-family: $heading-font;
     color: $brand-primary;
     font-weight: 800;
-    letter-spacing: -.07em;
-    line-height: .9em;
+    // letter-spacing: -.07em;
+    // line-height: .9em;
     text-transform: uppercase;
     text-decoration: none;
     text-shadow: 1px 1px 0px $body-font-color, 2px 2px 0px #AAA;
@@ -209,7 +209,6 @@ h2.entry-title {
     opacity: 0.6;
     -webkit-transition: opacity 1s ease;
     -moz-transition: opacity 1s ease;
-    -o-transition: opacity 1s ease;
     -ms-transition: opacity 1s ease;
     transition: opacity 1s ease;
 }
