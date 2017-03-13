@@ -159,6 +159,7 @@
      font-family: $body-font;
      color: $body-font-color;
      line-height: 1.5;
+     padding-bottom:70px
  }
  
  ul {
@@ -181,13 +182,13 @@
  
  .entry-title {
      font-family: $heading-font;
-     color: #444;
+     color: $brand-primary;
      font-weight: 800;
      letter-spacing: -.07em;
      line-height: .9em;
      text-transform: uppercase;
      text-decoration: none;
-     text-shadow: 1px 1px 0px white, 2px 2px 0px #AAA;
+     text-shadow: 1px 1px 0px $body-font-color, 2px 2px 0px #AAA;
      backface-visibility: hidden;
      -webkit-backface-visibility: hidden;
      -moz-backface-visibility: hidden;

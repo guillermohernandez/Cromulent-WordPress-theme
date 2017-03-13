@@ -9356,7 +9356,8 @@ article {
 body {
   font-family: "Open Sans", sans-serif;
   color: #FCFCFC;
-  line-height: 1.5; }
+  line-height: 1.5;
+  padding-bottom: 70px; }
 
 ul {
   list-style-type: none; }
@@ -9374,13 +9375,13 @@ h2.entry-title {
 
 .entry-title {
   font-family: "Raleway", sans-serif;
-  color: #444;
+  color: #01C0AB;
   font-weight: 800;
   letter-spacing: -.07em;
   line-height: .9em;
   text-transform: uppercase;
   text-decoration: none;
-  text-shadow: 1px 1px 0px white, 2px 2px 0px #AAA;
+  text-shadow: 1px 1px 0px #FCFCFC, 2px 2px 0px #AAA;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
