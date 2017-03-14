@@ -9351,6 +9351,9 @@ a:active {
   -ms-transition: opacity 1s ease;
   transition: opacity 1s ease; }
 
+a.btn.btn-secondary.understrap-read-more-link {
+  background-color: #01C0AB; }
+
 article {
   padding-bottom: 40px; }
 
@@ -9362,6 +9365,17 @@ body {
   padding-bottom: 0px;
   letter-spacing: -.05rem;
   margin: 0 0 1rem; }
+
+.btn, .wpcf7 input[type=submit] {
+  background-color: #00BFAA;
+  display: block;
+  padding: 15px 40px;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 600; }
 
 ul {
   list-style-type: none; }
@@ -9398,6 +9412,30 @@ h2.entry-title {
 
 h3.widget-title {
   font-size: 1.75rem; }
+
+.nav-links a {
+  color: white; }
+
+.nav-previous {
+  background-color: #00BFAA;
+  padding: 15px 40px;
+  margin-right: 1rem;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 600; }
+
+.nav-next {
+  background-color: #00BFAA;
+  padding: 15px 40px;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 600; }
 
 .panel {
   margin-top: 20px;
