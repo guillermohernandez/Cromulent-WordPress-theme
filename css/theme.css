@@ -9351,7 +9351,7 @@ a:active {
   -ms-transition: opacity 1s ease;
   transition: opacity 1s ease; }
 
-a.btn.btn-secondary.understrap-read-more-link {
+a.btn.btn-secondary {
   background-color: #01C0AB; }
 
 article {
@@ -9369,7 +9369,6 @@ body {
 .btn, .wpcf7 input[type=submit] {
   background-color: #00BFAA;
   display: block;
-  padding: 15px 40px;
   text-align: center;
   color: white;
   font-family: "Open Sans", sans-serif;
@@ -9382,7 +9381,7 @@ ul {
 
 ::selection {
   background: #01C0AB;
-  color: #fff;
+  color: #FCFCFC;
   text-shadow: none; }
 
 h1.entry-title {
@@ -9413,25 +9412,17 @@ h2.entry-title {
 h3.widget-title {
   font-size: 1.75rem; }
 
+.nav-links {
+  margin-bottom: 20px; }
+
 .nav-links a {
-  color: white; }
+  color: #FCFCFC; }
 
-.nav-previous {
-  background-color: #00BFAA;
-  padding: 15px 40px;
-  margin-right: 1rem;
-  text-align: center;
-  color: white;
-  font-family: "Open Sans", sans-serif;
-  border-radius: 3px;
-  font-size: 20px;
-  font-weight: 600; }
-
-.nav-next {
+.nav-previous, .nav-next {
   background-color: #00BFAA;
   padding: 15px 40px;
   text-align: center;
-  color: white;
+  color: #FCFCFC;
   font-family: "Open Sans", sans-serif;
   border-radius: 3px;
   font-size: 20px;
@@ -9439,6 +9430,7 @@ h3.widget-title {
 
 .panel {
   margin-top: 20px;
+  margin-bottom: 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: .5rem;
   border-radius: .25em;

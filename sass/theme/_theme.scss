@@ -152,7 +152,7 @@
      transition: opacity 1s ease;
  }
  
- a.btn.btn-secondary.understrap-read-more-link {
+ a.btn.btn-secondary {
      background-color: #01C0AB;
  }
  
@@ -173,7 +173,8 @@
  .btn {
      background-color: #00BFAA;
      display: block;
-     padding: 15px 40px;
+     //  padding: 15px 40px;
+     //  padding: 15px 40px;
      text-align: center;
      color: white;
      font-family: $body-font;
@@ -188,7 +189,7 @@
  
  ::selection {
      background: $brand-primary;
-     color: #fff;
+     color: $body-font-color;
      text-shadow: none;
  }
  
@@ -228,35 +229,28 @@
      font-size: 1.75rem;
  }
  
+ .nav-links {
+     margin-bottom: 20px;
+ }
+ 
  .nav-links a {
-     color: white;
+     color: $body-font-color;
  }
  
- .nav-previous {
+ .nav-previous, .nav-next {
      background-color: #00BFAA;
      padding: 15px 40px;
-     margin-right: 1rem;
      text-align: center;
-     color: white;
+     color: $body-font-color;
      font-family: $body-font;
      border-radius: 3px;
      font-size: 20px;
      font-weight: 600;
  }
- 
- .nav-next {
-     background-color: #00BFAA;
-     padding: 15px 40px;
-     text-align: center;
-     color: white;
-     font-family: $body-font;
-     border-radius: 3px;
-     font-size: 20px;
-     font-weight: 600;
- }
- 
+  
  .panel {
      margin-top: 20px;
+     margin-bottom: 15px;
      border: 1px solid rgba(255, 255, 255, 0.3);
      padding: .5rem;
      border-radius: .25em;
@@ -310,7 +304,7 @@
  
  #wrapper-footer-full,
  #wrapper-static-hero {
-     color: #FCFCFC;
+     color: $body-font-color;
      background-color: $background-color;
      //background: url(../img/dvsup.png);
  }
