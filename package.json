@@ -1,27 +1,8 @@
 {
-  "name": "understrap",
-  "version": "0.8",
-  "description": "Wordpress Theme framework",
+  "name": "cromulent",
+  "version": "0.0.8",
+  "description": "Cromulent WordPress theme ====== **Cromulent**: it’s a perfectly cromulent WordPress theme",
   "main": "index.js",
-  "scripts": {
-    "postinstall": "gulp copy-assets"
-  },
-  "engines": {
-    "npm": ">=2.1.8"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/guillermohernandez/Cromulent-WordPress-theme.git"
-  },
-  "keywords": [
-    "wordpress",
-    "theme",
-    "framework",
-    "bootstrap",
-    "underscores"
-  ],
-  "author": "Guillermo Hernandez Jr",
-  "license": "GPL-2.0",
   "dependencies": {
     "animate.css": "^3.5.2",
     "bootstrap": "^4.0.0-alpha.6",
@@ -45,5 +26,18 @@
     "run-sequence": "^1.2.2",
     "undescores-for-npm": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "gulp copy-assets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillermohernandez/Cromulent-WordPress-theme.git"
+  },
+  "author": "Guillermo Hernandez Jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guillermohernandez/Cromulent-WordPress-theme/issues"
+  },
+  "homepage": "https://github.com/guillermohernandez/Cromulent-WordPress-theme#readme"
 }
