@@ -1,6 +1,6 @@
 {
   "name": "understrap",
-  "version": "0.5.7",
+  "version": "0.8",
   "description": "Wordpress Theme framework",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
 
   "repository": {
     "type": "git",
-    "url": "https://github.com/holger1411/understrap.git"
+    "url": "https://github.com/guillermohernandez/Cromulent-WordPress-theme.git"
   },
   "keywords": [
     "wordpress",
@@ -22,12 +22,8 @@
     "bootstrap",
     "underscores"
   ],
-  "author": "Holger Koenemann",
+  "author": "Guillermo Hernandez Jr",
   "license": "GPL-2.0",
-  "bugs": {
-    "url": "https://github.com/holger1411/understrap/issues"
-  },
-  "homepage": "https://understrap.com",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "browser-sync": "^2.18.7",

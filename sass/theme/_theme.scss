@@ -48,8 +48,8 @@
      background-color: $brand-secondary;
      color: $body-font-color;
  }
-
-  .btn-secondary:hover {
+ 
+ .btn-secondary:hover {
      background-color: $brand-primary;
      color: $body-font-color;
  }
@@ -144,8 +144,6 @@
      font-family: $heading-font;
      color: $brand-primary;
      font-weight: 800;
-     // letter-spacing: -.07em;
-     // line-height: .9em;
      text-transform: uppercase;
      text-decoration: none;
      text-shadow: 1px 1px 0px $body-font-color, 2px 2px 0px #AAA;
@@ -262,14 +260,29 @@
  .widget {
      border: 1px solid rgba(255, 255, 255, 0.3);
      padding: .5rem;
-     //  display: inline-block;
      position: relative;
      display: flex;
      flex-direction: column;
      border-radius: 0.25rem;
+     margin-bottom: 10px;
  }
  
  .widget-title {
+     font-family: $heading-font;
+     color: $brand-primary;
+     font-weight: 800;
+     letter-spacing: -.07em;
+     line-height: .9em;
+     text-transform: uppercase;
+     text-decoration: none;
+     text-shadow: 1px 1px 0px $body-font-color, 2px 2px 0px #AAA;
+     backface-visibility: hidden;
+     -webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+     margin-bottom: .6em;
+ }
+ 
+ .widgettitle {
      font-family: $heading-font;
      color: $brand-primary;
      font-weight: 800;

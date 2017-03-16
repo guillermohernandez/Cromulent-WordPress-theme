@@ -48,6 +48,13 @@
         </div>
         </div>
 
+        <div class="jumbotron jumbotron-fluid">
+         <div class="container-fluid">
+         <h1 class="display-3"><p><?php the_field('services_title_5'); ?></p></h1>
+         <p class="lead"><?php the_field('services_blurb_5'); ?></p>
+        </div>
+        </div>
+
 		<?php
 		wp_link_pages( array(
 			'before' => '<div class="page-links">' . __( 'Pages:', 'understrap' ),
