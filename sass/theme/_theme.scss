@@ -14,10 +14,6 @@
      transition: opacity 1s ease;
  }
  
- a.btn.btn-secondary {
-     background-color: #01C0AB;
- }
- 
  article {
      padding-bottom: 40px;
  }
@@ -33,15 +29,55 @@
  }
  
  .btn {
-     background-color: #00BFAA;
-     //  padding: 15px 40px;
-     //  padding: 15px 40px;
      text-align: center;
-     color: white;
      font-family: $body-font;
      border-radius: 3px;
      font-size: 20px;
      font-weight: 600;
+ }
+ 
+ .btn:hover {
+     opacity: 0.6;
+     -webkit-transition: opacity 1s ease;
+     -moz-transition: opacity 1s ease;
+     -ms-transition: opacity 1s ease;
+     transition: opacity 1s ease;
+ }
+ 
+ .btn-secondary {
+     background-color: $brand-secondary;
+     color: $body-font-color;
+ }
+
+  .btn-secondary:hover {
+     background-color: $brand-primary;
+     color: $body-font-color;
+ }
+ 
+ .btn-outline-demo {
+     color: $brand-secondary;
+     background-image: none;
+     background-color: transparent;
+     border-color: $brand-secondary;
+ }
+ 
+ .btn-outline-demo:hover {
+     color: #fff;
+     background-color: $brand-secondary;
+     border-color: $brand-secondary;
+ }
+ 
+ .btn-outline-demo:focus,
+ .btn-outline-demo.focus {
+     box-shadow: 0 0 0 2px rgba(53, 214, 193, 0.5);
+ }
+ 
+ .btn-outline-demo:active,
+ .btn-outline-demo.active,
+ .show>.btn-outline-demo.dropdown-toggle {
+     color: #fff;
+     background-color: $brand-secondary;
+     border-color: $brand-secondary;
  }
  
  .card-inverse-dark {

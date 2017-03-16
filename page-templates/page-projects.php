@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Projects Page
+ * Template Name: Projects Page Template
  *
  * Template for displaying a page without sidebar even if a sidebar widget is published.
  *
@@ -47,6 +47,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="card-block card-inverse card-primary">
 								<?php the_title( '<h4 class="card-title">', '</h4>' ); ?>
 								</div>
+								<div class="card-footer align-bottom">
+								<a href="<?php the_field('github_url'); ?>" class="btn btn-secondary">Github</a>
+								<a href="<?php the_field('demo_url'); ?>" class="btn btn-outline-demo">View Demo</a>
+								</div>
+								
+								</div>
+
+								
 
 								</div>
 								<?php endwhile; ?>

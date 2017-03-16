@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Services Page
+ * Template Name: Services Page Template
  *
  * Template for displaying a page without sidebar even if a sidebar widget is published.
  *
