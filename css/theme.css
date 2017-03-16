@@ -9347,7 +9347,7 @@ article img,
 figure,
 img,
 #secondary img {
-  max-width: 100%;
+  max-width: 100% !important;
   height: auto;
   float: none !important;
   padding-right: 0px !important; }
