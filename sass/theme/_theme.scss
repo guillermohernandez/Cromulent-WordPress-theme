@@ -43,9 +43,9 @@
      font-size: 20px;
      font-weight: 600;
  }
-
- .card-inverse-dark{
-     background-color: #333; 
+ 
+ .card-inverse-dark {
+     background-color: #333;
      border-color: #333
  }
  
@@ -77,6 +77,10 @@
  
  h3 {
      font-size: 1.75rem
+ }
+ 
+ h3.widget-title {
+     font-size: 1.75rem;
  }
  
  h4 {
@@ -124,8 +128,9 @@
      padding-bottom: 5px;
  }
  
- h3.widget-title {
-     font-size: 1.75rem;
+ .jumbotron {
+     background-color: rgba(252, 252, 252, 0.02);
+     border-radius: .25em;
  }
  
  .nav-links {
@@ -168,10 +173,10 @@
  figure,
  img,
  #secondary img {
-     max-width: 100% !important;
+     max-width: 100%;
      height: auto;
-     float: none !important;
-     padding-right: 0px !important;
+     float: none;
+     padding-right: 0px;
  }
  
  img.size-full {
@@ -220,12 +225,12 @@
  
  .widget {
      border: 1px solid rgba(255, 255, 255, 0.3);
-    padding: .5rem;
-    //  display: inline-block;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    border-radius: 0.25rem;
+     padding: .5rem;
+     //  display: inline-block;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     border-radius: 0.25rem;
  }
  
  .widget-title {
@@ -247,21 +252,9 @@
      background-color: $background-color;
  }
  
- #secondary img,
- article img,
- figure,
- img,
- img.wp-post-image {
-     max-width: 40%;
-     height: auto;
-     float: left;
-     padding-right: 40px;
- }
- 
  #wrapper-footer-full,
  #wrapper-static-hero {
      color: $body-font-color;
      background-color: $background-color;
      //background: url(../img/dvsup.png);
  }
-

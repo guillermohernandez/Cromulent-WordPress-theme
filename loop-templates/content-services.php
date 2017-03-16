@@ -21,30 +21,30 @@
 		<?php the_content(); ?>
 
         <div class="jumbotron jumbotron-fluid">
-         <div class="container">
+         <div class="container-fluid">
          <h1 class="display-3"><p><?php the_field('services_title'); ?></p></h1>
-         <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+         <p class="lead"><?php the_field('services_blurb'); ?></p>
         </div>
         </div>
 
         <div class="jumbotron jumbotron-fluid">
-         <div class="container">
+         <div class="container-fluid">
          <h1 class="display-3"><p><?php the_field('services_title_2'); ?></p></h1>
-         <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+         <p class="lead"><?php the_field('services_blurb_2'); ?></p>
         </div>
         </div>
 
         <div class="jumbotron jumbotron-fluid">
-         <div class="container">
+         <div class="container-fluid">
          <h1 class="display-3"><p><?php the_field('services_title_3'); ?></p></h1>
-         <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+         <p class="lead"><?php the_field('services_blurb_3'); ?></p>
         </div>
         </div>
 
         <div class="jumbotron jumbotron-fluid">
-         <div class="container">
+         <div class="container-fluid">
          <h1 class="display-3"><p><?php the_field('services_title_4'); ?></p></h1>
-         <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+         <p class="lead"><?php the_field('services_blurb_4'); ?></p>
         </div>
         </div>
 
