@@ -6,11 +6,12 @@
 // Just add your color code here, compile the theme.scss file to change this color everywhere
 
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700';
+@import "../../src/css/animate.css";
 
 $font-family-sans-serif: 'Open Sans', sans-serif;
 $body-font: 'Open Sans', sans-serif;
 $heading-font: 'Raleway', sans-serif;
-$brand-primary:         #01C0AB;
+$brand-primary: #01C0AB;
 $brand-secondary: #35D6C1;
 $background-color: #23272D;
 $body-font-color: #FCFCFC;

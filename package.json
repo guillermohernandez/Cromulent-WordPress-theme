@@ -6,11 +6,9 @@
   "scripts": {
     "postinstall": "gulp copy-assets"
   },
-
-  "engines" : { 
-  "npm" : ">=2.1.8" 
+  "engines": {
+    "npm": ">=2.1.8"
   },
-
   "repository": {
     "type": "git",
     "url": "https://github.com/guillermohernandez/Cromulent-WordPress-theme.git"
@@ -25,6 +23,7 @@
   "author": "Guillermo Hernandez Jr",
   "license": "GPL-2.0",
   "dependencies": {
+    "animate.css": "^3.5.2",
     "bootstrap": "^4.0.0-alpha.6",
     "browser-sync": "^2.18.7",
     "del": "^2.2.2",

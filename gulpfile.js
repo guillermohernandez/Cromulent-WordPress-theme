@@ -149,8 +149,10 @@ gulp.task('scripts', function() {
 
         // Start - All BS4 stuff
         basePaths.dev + 'js/bootstrap4/bootstrap.js',
-
         // End - All BS4 stuff
+
+        //wow.js
+        basePaths.dev + 'js/wow.js',
 
         basePaths.dev + 'js/skip-link-focus-fix.js'
     ];
