@@ -40,7 +40,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="card-columns">
 
 								<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
-								<div class="card text-center">
+								<div class="card text-center nimated fadeIn">
 									<a href="<?php the_permalink(); ?>">
 									<img class="card-img-top img-fluid" src="<?php the_field('project_thumb'); ?>" />
 									</a>

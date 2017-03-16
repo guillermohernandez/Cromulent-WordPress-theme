@@ -8449,6 +8449,38 @@ html {
   width: 100%;
   height: 100%; }
 
+h1 {
+  font-size: 2.5rem; }
+
+h1.entry-title {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h2.entry-title {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.75rem; }
+
+h3.widget-title {
+  font-size: 1.75rem; }
+
+h4 {
+  font-size: 1.5rem; }
+
+h5 {
+  font-size: 1.25rem; }
+
+h6 {
+  font-size: 1rem; }
+
+::selection {
+  background: #01C0AB;
+  color: #FCFCFC;
+  text-shadow: none; }
+
 a:hover,
 a:active {
   color: #6E7072;
@@ -8515,44 +8547,17 @@ body {
   background-color: #35D6C1;
   border-color: #35D6C1; }
 
-.card-inverse-dark {
-  background-color: #333;
-  border-color: #333; }
-
 ul {
   list-style-type: none; }
 
-::selection {
-  background: #01C0AB;
-  color: #FCFCFC;
-  text-shadow: none; }
+.card {
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s; }
 
-h1 {
-  font-size: 2.5rem; }
-
-h1.entry-title {
-  font-size: 2.5rem; }
-
-h2 {
-  font-size: 2rem; }
-
-h2.entry-title {
-  font-size: 2rem; }
-
-h3 {
-  font-size: 1.75rem; }
-
-h3.widget-title {
-  font-size: 1.75rem; }
-
-h4 {
-  font-size: 1.5rem; }
-
-h5 {
-  font-size: 1.25rem; }
-
-h6 {
-  font-size: 1rem; }
+.card-inverse-dark {
+  background-color: #333;
+  border-color: #333; }
 
 .card-title {
   color: #01C0AB; }
@@ -8578,7 +8583,10 @@ h6 {
 
 .entry-content {
   font-size: 24px;
-  color: #FCFCFC; }
+  color: #FCFCFC;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s; }
 
 .entry-meta {
   padding-bottom: 5px; }

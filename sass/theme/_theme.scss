@@ -3,6 +3,48 @@
      height: 100%;
  }
  
+ h1 {
+     font-size: 2.5rem;
+ }
+ 
+ h1.entry-title {
+     font-size: 2.5rem;
+ }
+ 
+ h2 {
+     font-size: 2rem;
+ }
+ 
+ h2.entry-title {
+     font-size: 2rem;
+ }
+ 
+ h3 {
+     font-size: 1.75rem
+ }
+ 
+ h3.widget-title {
+     font-size: 1.75rem;
+ }
+ 
+ h4 {
+     font-size: 1.5rem
+ }
+ 
+ h5 {
+     font-size: 1.25rem
+ }
+ 
+ h6 {
+     font-size: 1rem
+ }
+ 
+ ::selection {
+     background: $brand-primary;
+     color: $body-font-color;
+     text-shadow: none;
+ }
+ 
  a:hover,
  a:active {
      color: $hover-color;
@@ -80,55 +122,19 @@
      border-color: $brand-secondary;
  }
  
- .card-inverse-dark {
-     background-color: #333;
-     border-color: #333
- }
- 
  ul {
      list-style-type: none;
  }
  
- ::selection {
-     background: $brand-primary;
-     color: $body-font-color;
-     text-shadow: none;
+ .card {
+     animation-duration: 3s;
+     -webkit-animation-duration: 3s;
+     -moz-animation-duration: 3s;
  }
  
- h1 {
-     font-size: 2.5rem;
- }
- 
- h1.entry-title {
-     font-size: 2.5rem;
- }
- 
- h2 {
-     font-size: 2rem;
- }
- 
- h2.entry-title {
-     font-size: 2rem;
- }
- 
- h3 {
-     font-size: 1.75rem
- }
- 
- h3.widget-title {
-     font-size: 1.75rem;
- }
- 
- h4 {
-     font-size: 1.5rem
- }
- 
- h5 {
-     font-size: 1.25rem
- }
- 
- h6 {
-     font-size: 1rem
+ .card-inverse-dark {
+     background-color: #333;
+     border-color: #333
  }
  
  .card-title {
@@ -160,6 +166,9 @@
  .entry-content {
      font-size: 24px;
      color: $body-font-color;
+     animation-duration: 3s;
+     -webkit-animation-duration: 3s;
+     -moz-animation-duration: 3s;
  }
  
  .entry-meta {
