@@ -49,6 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								</div>
 								<div class="card-footer align-bottom">
 								<a href="<?php the_field('github_url'); ?>" class="btn btn-secondary">Github</a>
+								<?php if( get_field('show_demo_url')): ?>
 								<a href="<?php the_field('demo_url'); ?>" class="btn btn-outline-demo">View Demo</a>
 								</div>
 								
