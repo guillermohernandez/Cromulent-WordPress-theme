@@ -20,7 +20,7 @@
 
 		<?php the_content(); ?>
 
-        <div class="jumbotron jumbotron-fluid animated fadeInDown">
+        <div class="jumbotron jumbotron-fluid animated fadeIn">
          <div class="container-fluid">
          <h1 class="display-3"><p><?php the_field('services_title'); ?></p></h1>
          <p class="lead"><?php the_field('services_blurb'); ?></p>

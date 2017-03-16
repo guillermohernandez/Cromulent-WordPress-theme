@@ -8585,7 +8585,10 @@ h6 {
 
 .jumbotron {
   background-color: rgba(252, 252, 252, 0.02);
-  border-radius: .25em; }
+  border-radius: .25em;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s; }
 
 .nav-links {
   margin-bottom: 20px; }
