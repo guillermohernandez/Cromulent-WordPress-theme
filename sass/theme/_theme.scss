@@ -62,7 +62,7 @@
  }
  
  .btn-outline-demo:hover {
-     color: #fff;
+     color: $body-font-color;
      background-color: $brand-secondary;
      border-color: $brand-secondary;
  }
@@ -75,7 +75,7 @@
  .btn-outline-demo:active,
  .btn-outline-demo.active,
  .show>.btn-outline-demo.dropdown-toggle {
-     color: #fff;
+     color: $body-font-color;
      background-color: $brand-secondary;
      border-color: $brand-secondary;
  }
