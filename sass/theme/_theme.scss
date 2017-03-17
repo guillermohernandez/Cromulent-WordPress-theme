@@ -169,6 +169,7 @@
      animation-duration: 3s;
      -webkit-animation-duration: 3s;
      -moz-animation-duration: 3s;
+     margin-top: 25px;
  }
  
  .entry-meta {
@@ -181,6 +182,27 @@
      animation-duration: 3s;
      -webkit-animation-duration: 3s;
      -moz-animation-duration: 3s;
+ }
+
+ .section-links{
+    padding-left: .5rem;
+    padding-right: .5rem;
+    font-weight: 600;
+    background-color: #00D6BF;
+    color: $body-font-color;
+ }
+ 
+ .section-title {
+     font-family: $heading-font;
+     color: $brand-primary;
+     font-weight: 800;
+     text-transform: uppercase;
+     text-decoration: none;
+     text-shadow: 1px 1px 0px $body-font-color, 2px 2px 0px #AAA;
+     backface-visibility: hidden;
+     -webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+     margin-bottom: .6em;
  }
  
  .nav-links {
