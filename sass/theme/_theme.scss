@@ -23,6 +23,19 @@
      font-size: 1.75rem
  }
  
+ h3.section-title {
+     font-family: $heading-font;
+     color: $brand-primary;
+     font-weight: 800;
+     text-transform: uppercase;
+     text-decoration: none;
+     text-shadow: 1px 1px 0px $body-font-color, 2px 2px 0px #AAA;
+     backface-visibility: hidden;
+     -webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+     margin-bottom: .6em;
+ }
+ 
  h3.widget-title {
      font-size: 1.75rem;
  }
@@ -179,6 +192,7 @@
  .jumbotron {
      background-color: rgba(252, 252, 252, 0.02);
      border-radius: .25em;
+     margin-bottom: 20px;
      animation-duration: 3s;
      -webkit-animation-duration: 3s;
      -moz-animation-duration: 3s;
@@ -349,5 +363,3 @@
      background-color: $background-color;
      //background: url(../img/dvsup.png);
  }
-
- 
