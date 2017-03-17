@@ -6,7 +6,7 @@
 // Just add your color code here, compile the theme.scss file to change this color everywhere
 
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:800';
-@import "../src/css/animate.css";
+@import "../src/css/animate.min.css";
 
 $font-family-sans-serif: 'Open Sans', sans-serif;
 $body-font: 'Open Sans', sans-serif;
@@ -18,6 +18,6 @@ $body-font-color: #FCFCFC;
 $hover-color: #6E7072;
 
 // Basics of a navbar
-$navbar-height:                    72px;
+$navbar-height:                    0px;
 $navbar-margin-bottom:             0px;
 $navbar-border-radius:             0px;

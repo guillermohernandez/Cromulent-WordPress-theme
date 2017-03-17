@@ -173,7 +173,6 @@
      backface-visibility: hidden;
      -webkit-backface-visibility: hidden;
      -moz-backface-visibility: hidden;
-     margin-bottom: .6em;
  }
  
  .entry-content {
@@ -182,11 +181,10 @@
      animation-duration: 3s;
      -webkit-animation-duration: 3s;
      -moz-animation-duration: 3s;
-     margin-top: 25px;
  }
  
  .entry-meta {
-     padding-bottom: 5px;
+     margin-bottom: 25px;
  }
  
  .jumbotron {
@@ -363,3 +361,4 @@
      background-color: $background-color;
      //background: url(../img/dvsup.png);
  }
+ 
