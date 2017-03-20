@@ -10,3 +10,5 @@ dist/
 dist-product
 
 *.log
+
+.DS_Store

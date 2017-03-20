@@ -50,7 +50,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content',
 		'understrap' ); ?></a>
 
-		<nav class="navbar navbar-toggleable-md  navbar-inverse bg-inverse">
+		<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
 
 		<?php if ( 'container' == $container ) : ?>
 			<div class="container">
@@ -84,7 +84,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'theme_location'  => 'primary',
 						'container_class' => 'collapse navbar-collapse',
 						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav',
+						'menu_class'      => 'navbar-nav nav-fill w-100',
 						'fallback_cb'     => '',
 						'menu_id'         => 'main-menu',
 						'walker'          => new WP_Bootstrap_Navwalker(),
