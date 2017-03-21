@@ -56,10 +56,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 								</div> <!-- /card-footer -->
 								
 								</div> <!-- /card -->
-
-								</div> <!-- /card-columns -->
 								<?php endwhile; ?>
-								</div>
+								</div> <!-- /card-columns -->
 							<?php endif; ?>
 								<?php
 								wp_link_pages( array(

@@ -44,18 +44,20 @@ $container = get_theme_mod( 'understrap_container_type' );
 									<a href="<?php the_permalink(); ?>">
 									<img class="card-img-top img-fluid" src="<?php the_field('work_thumb'); ?>" />
 									</a>
+
 								<div class="card-block card-inverse card-primary">
 								<?php the_title( '<h4 class="card-title">', '</h4>' ); ?>
-								</div>
+								</div><!-- card-block -->
+
 								<div class="card-footer align-bottom">
 								<?php if( get_field('show_visit_site')): ?>
 								<a href="<?php the_field('visit_site'); ?>" class="btn btn-outline-demo">Visit Site</a>
 								<?php endif; ?>
-								</div>
+								</div> <!-- card-footer -->
 
-								</div>
+								</div> <!-- card -->
 								<?php endwhile; ?>
-								</div>
+								</div> <!-- card-columns -->
 							<?php endif; ?>
 								<?php
 								wp_link_pages( array(
