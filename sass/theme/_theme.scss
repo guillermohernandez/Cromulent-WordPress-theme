@@ -2,27 +2,27 @@
      width: 100%;
      height: 100%;
  }
- 
+
  h1 {
      font-size: 2.5rem;
  }
- 
+
  h1.entry-title {
      font-size: 2.5rem;
  }
- 
+
  h2 {
      font-size: 2rem;
  }
- 
+
  h2.entry-title {
      font-size: 2rem;
  }
- 
+
  h3 {
      font-size: 1.75rem
  }
- 
+
  h3.section-title {
      font-family: $heading-font;
      color: $brand-primary;
@@ -35,29 +35,29 @@
      -moz-backface-visibility: hidden;
      margin-bottom: .6em;
  }
- 
+
  h3.widget-title {
      font-size: 1.75rem;
  }
- 
+
  h4 {
      font-size: 1.5rem
  }
- 
+
  h5 {
      font-size: 1.25rem
  }
- 
+
  h6 {
      font-size: 1rem
  }
- 
+
  ::selection {
      background: $brand-primary;
      color: $body-font-color;
      text-shadow: none;
  }
- 
+
  a:hover,
  a:active {
      color: $hover-color;
@@ -68,11 +68,11 @@
      -ms-transition: opacity 1s ease;
      transition: opacity 1s ease;
  }
- 
+
  article {
      padding-bottom: 40px;
  }
- 
+
  body {
      font-family: $body-font;
      color: $body-font-color;
@@ -82,7 +82,7 @@
      letter-spacing: -.05rem;
      margin: 0 0 1rem;
  }
- 
+
  .btn {
      text-align: center;
      font-family: $body-font;
@@ -90,7 +90,7 @@
      font-size: 20px;
      font-weight: 600;
  }
- 
+
  .btn:hover {
      opacity: 0.6;
      -webkit-transition: opacity 1s ease;
@@ -98,35 +98,35 @@
      -ms-transition: opacity 1s ease;
      transition: opacity 1s ease;
  }
- 
+
  .btn-secondary {
      background-color: $brand-secondary;
      color: $body-font-color;
  }
- 
+
  .btn-secondary:hover {
      background-color: $brand-primary;
      color: $body-font-color;
  }
- 
+
  .btn-outline-demo {
      color: $brand-secondary;
      background-image: none;
      background-color: transparent;
      border-color: $brand-secondary;
  }
- 
+
  .btn-outline-demo:hover {
      color: $body-font-color;
      background-color: $brand-secondary;
      border-color: $brand-secondary;
  }
- 
+
  .btn-outline-demo:focus,
  .btn-outline-demo.focus {
      box-shadow: 0 0 0 2px rgba(53, 214, 193, 0.5);
  }
- 
+
  .btn-outline-demo:active,
  .btn-outline-demo.active,
  .show>.btn-outline-demo.dropdown-toggle {
@@ -134,35 +134,35 @@
      background-color: $brand-secondary;
      border-color: $brand-secondary;
  }
- 
+
  ul {
      list-style-type: none;
  }
- 
+
  .card {
      animation-duration: 3s;
      -webkit-animation-duration: 3s;
      -moz-animation-duration: 3s;
  }
- 
+
  .card-inverse-dark {
      background-color: #333;
      border-color: #333
  }
- 
+
  .card-title {
      color: $brand-primary;
  }
- 
+
  .card-primary {
      background-color: $hover-color;
      border-color: $hover-color;
  }
- 
+
  .comments-area {
      margin-top: 20px;
  }
- 
+
  .entry-title {
      font-family: $heading-font;
      color: $brand-primary;
@@ -174,19 +174,29 @@
      -webkit-backface-visibility: hidden;
      -moz-backface-visibility: hidden;
  }
- 
+
  .entry-content {
      font-size: 24px;
      color: $body-font-color;
+     margin-top: 20px;
      animation-duration: 3s;
      -webkit-animation-duration: 3s;
      -moz-animation-duration: 3s;
  }
- 
+
  .entry-meta {
      margin-bottom: 25px;
  }
- 
+
+ .hr {
+     border: 0;
+     height: 0; //  border-top: 1px solid rgba(0, 0, 0, 0.1);
+     margin-top: 1.5rem;
+     margin-bottom: 1.5rem;
+     border-top: 1px solid #6E7072;
+     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+ }
+
  .jumbotron {
      background-color: rgba(252, 252, 252, 0.02);
      border-radius: .25em;
@@ -195,7 +205,7 @@
      -webkit-animation-duration: 3s;
      -moz-animation-duration: 3s;
  }
- 
+
  .section-links {
      padding-left: .5rem;
      padding-right: .5rem;
@@ -203,7 +213,7 @@
      background-color: #00D6BF;
      color: $body-font-color;
  }
- 
+
  .section-title {
      font-family: $heading-font;
      color: $brand-primary;
@@ -216,15 +226,20 @@
      -moz-backface-visibility: hidden;
      margin-bottom: .6em;
  }
- 
+
+ .navbar{
+     font-weight: 600;
+     font-size: 1.15rem;
+ }
+
  .nav-links {
      margin-bottom: 20px;
  }
- 
+
  .nav-links a {
      color: $body-font-color;
  }
- 
+
  .nav-previous,
  .nav-next {
      background-color: #00BFAA;
@@ -236,7 +251,7 @@
      font-size: 20px;
      font-weight: 600;
  }
- 
+
  .panel {
      margin-top: 20px;
      margin-bottom: 15px;
@@ -245,13 +260,13 @@
      border-radius: .25em;
      display: inline-block;
  }
- 
+
  .screen-reader-text,
  .wp-caption,
  .wp-caption-text {
      font-size: 1rem;
  }
- 
+
  img.wp-post-image,
  article img,
  figure,
@@ -262,43 +277,43 @@
      float: none;
      padding-right: 0px;
  }
- 
+
  img.size-full {
      max-width: 100%;
  }
- 
+
  img.alignright {
      float: right;
      margin: 0 0 1em 1em
  }
- 
+
  img.alignleft {
      float: left;
      margin: 0 1em 1em 0
  }
- 
+
  img.aligncenter {
      display: block;
      margin-left: auto;
      margin-right: auto
  }
- 
+
  a img.alignright {
      float: right;
      margin: 0 0 1em 1em
  }
- 
+
  a img.alignleft {
      float: left;
      margin: 0 1em 1em 0
  }
- 
+
  a img.aligncenter {
      display: block;
      margin-left: auto;
      margin-right: auto
  }
- 
+
  .social-nav a:hover {
      opacity: 0.6;
      -webkit-transition: opacity 1s ease;
@@ -306,7 +321,7 @@
      -ms-transition: opacity 1s ease;
      transition: opacity 1s ease;
  }
- 
+
  .widget {
      border: 1px solid rgba(255, 255, 255, 0.3);
      padding: .5rem;
@@ -320,7 +335,7 @@
      -webkit-animation-duration: 3s;
      -moz-animation-duration: 3s;
  }
- 
+
  .widget-title {
      font-family: $heading-font;
      color: $brand-primary;
@@ -335,7 +350,7 @@
      -moz-backface-visibility: hidden;
      margin-bottom: .6em;
  }
- 
+
  .widgettitle {
      font-family: $heading-font;
      color: $brand-primary;
@@ -352,19 +367,15 @@
  }
 
  .wpcf7-form-control-wrap {
-    margin-bottom: 20px;
-}
- 
+     margin-bottom: 20px;
+ }
+
  .wrapper {
      background-color: $background-color;
  }
- 
+
  #wrapper-footer-full,
  #wrapper-static-hero {
      color: $body-font-color;
-     background-color: $background-color;
-     //background: url(../img/dvsup.png);
+     background-color: $background-color; //background: url(../img/dvsup.png);
  }
-
-
- 

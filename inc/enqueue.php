@@ -23,6 +23,7 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 
 add_action( 'wp_enqueue_scripts', 'understrap_scripts' );
 
+// Load Contact Form 7 on contact page only
 function cromulent_dequeue_scripts() {
 
     $load_scripts = false;
@@ -45,4 +46,16 @@ function cromulent_dequeue_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'cromulent_dequeue_scripts', 99 );
 
+// Remove WP Embed
+function cromulent_deregister_scripts(){
+  wp_deregister_script( 'wp-embed' );
+}
+add_action( 'wp_footer', 'cromulent_deregister_scripts' );
 
+//Remove WP Emojis
+
+remove_action('wp_head', 'print_emoji_detection_script', 7);
+remove_action('wp_print_styles', 'print_emoji_styles');
+
+remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
+remove_action( 'admin_print_styles', 'print_emoji_styles' );
