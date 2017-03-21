@@ -40,25 +40,24 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="card-columns">
 
 								<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
-								<div class="card text-center nimated fadeIn">
+								<div class="card text-center animated fadeIn">
 									<a href="<?php the_permalink(); ?>">
 									<img class="card-img-top img-fluid" src="<?php the_field('project_thumb'); ?>" />
 									</a>
 								<div class="card-block card-inverse card-primary">
 								<?php the_title( '<h4 class="card-title">', '</h4>' ); ?>
-								</div>
+								</div> <!-- /card-block -->
+
 								<div class="card-footer align-bottom">
 								<a href="<?php the_field('github_url'); ?>" class="btn btn-secondary">Github</a>
 								<?php if( get_field('show_demo_url')): ?>
 								<a href="<?php the_field('demo_url'); ?>" class="btn btn-outline-demo">View Demo</a>
 								<?php endif; ?>
-								</div>
+								</div> <!-- /card-footer -->
 								
-								</div>
+								</div> <!-- /card -->
 
-								
-
-								</div>
+								</div> <!-- /card-columns -->
 								<?php endwhile; ?>
 								</div>
 							<?php endif; ?>
