@@ -9403,6 +9403,9 @@ ul {
   -moz-backface-visibility: hidden;
   margin-bottom: .6em; }
 
+.shadow {
+  text-shadow: 4px 3px 0 #23272D, 9px 8px 0 rgba(0, 0, 0, 0.15); }
+
 .navbar {
   font-weight: 600;
   font-size: 1.15rem; }
@@ -9503,7 +9506,7 @@ a img.aligncenter {
   letter-spacing: -.07em;
   line-height: .9em;
   text-transform: uppercase;
-  text-shadow: 4px 3px 0 #FCFCFC, 9px 8px 0 rgba(0, 0, 0, 0.15);
+  text-shadow: 4px 3px 0 #23272D, 9px 8px 0 rgba(0, 0, 0, 0.15);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -9516,7 +9519,7 @@ a img.aligncenter {
   letter-spacing: -.07em;
   line-height: .9em;
   text-transform: uppercase;
-  text-shadow: 4px 3px 0 #FCFCFC, 9px 8px 0 rgba(0, 0, 0, 0.15);
+  text-shadow: 4px 3px 0 #23272D, 9px 8px 0 rgba(0, 0, 0, 0.15);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;

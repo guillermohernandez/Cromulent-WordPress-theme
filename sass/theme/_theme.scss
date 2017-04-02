@@ -229,6 +229,10 @@
    margin-bottom: .6em;
  }
 
+ .shadow {
+   text-shadow: 4px 3px 0 $background-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
+ }
+
  .navbar {
    font-weight: 600;
    font-size: 1.15rem;
@@ -345,7 +349,7 @@
    letter-spacing: -.07em;
    line-height: .9em;
    text-transform: uppercase;
-   text-shadow: 4px 3px 0 $body-font-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
+   text-shadow: 4px 3px 0 $background-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
    backface-visibility: hidden;
    -webkit-backface-visibility: hidden;
    -moz-backface-visibility: hidden;
@@ -359,7 +363,7 @@
    letter-spacing: -.07em;
    line-height: .9em;
    text-transform: uppercase;
-   text-shadow: 4px 3px 0 $body-font-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
+   text-shadow: 4px 3px 0 $background-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
    backface-visibility: hidden;
    -webkit-backface-visibility: hidden;
    -moz-backface-visibility: hidden;
@@ -377,5 +381,7 @@
  #wrapper-footer-full,
  #wrapper-static-hero {
    color: $body-font-color;
-   background-color: $background-color; //background: url(../img/dvsup.png);
+   background-color: $background-color;
  }
+
+
