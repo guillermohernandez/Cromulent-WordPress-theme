@@ -27,11 +27,8 @@
    font-family: $heading-font;
    color: $brand-primary;
    font-weight: 800;
-   text-transform: uppercase; //text-shadow: 1px 1px 0px $body-font-color, 2px 2px 0px #AAA;
+   text-transform: uppercase;
    text-shadow: 4px 3px 0 $body-font-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
-   backface-visibility: hidden;
-   -webkit-backface-visibility: hidden;
-   -moz-backface-visibility: hidden;
    margin-bottom: .6em;
  }
 
@@ -223,9 +220,6 @@
    font-weight: 800;
    text-transform: uppercase;
    text-shadow: 4px 3px 0 $background-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
-   backface-visibility: hidden;
-   -webkit-backface-visibility: hidden;
-   -moz-backface-visibility: hidden;
    margin-bottom: .6em;
  }
 
@@ -350,9 +344,6 @@
    line-height: .9em;
    text-transform: uppercase;
    text-shadow: 4px 3px 0 $background-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
-   backface-visibility: hidden;
-   -webkit-backface-visibility: hidden;
-   -moz-backface-visibility: hidden;
    margin-bottom: .6em;
  }
 
@@ -364,9 +355,6 @@
    line-height: .9em;
    text-transform: uppercase;
    text-shadow: 4px 3px 0 $background-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
-   backface-visibility: hidden;
-   -webkit-backface-visibility: hidden;
-   -moz-backface-visibility: hidden;
    margin-bottom: .6em;
  }
 
@@ -383,5 +371,3 @@
    color: $body-font-color;
    background-color: $background-color;
  }
-
-

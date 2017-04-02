@@ -9234,9 +9234,6 @@ h3.section-title {
   font-weight: 800;
   text-transform: uppercase;
   text-shadow: 4px 3px 0 #FCFCFC, 9px 8px 0 rgba(0, 0, 0, 0.15);
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
   margin-bottom: .6em; }
 
 h3.widget-title {
@@ -9398,9 +9395,6 @@ ul {
   font-weight: 800;
   text-transform: uppercase;
   text-shadow: 4px 3px 0 #23272D, 9px 8px 0 rgba(0, 0, 0, 0.15);
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
   margin-bottom: .6em; }
 
 .shadow {
@@ -9507,9 +9501,6 @@ a img.aligncenter {
   line-height: .9em;
   text-transform: uppercase;
   text-shadow: 4px 3px 0 #23272D, 9px 8px 0 rgba(0, 0, 0, 0.15);
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
   margin-bottom: .6em; }
 
 .widgettitle {
@@ -9520,9 +9511,6 @@ a img.aligncenter {
   line-height: .9em;
   text-transform: uppercase;
   text-shadow: 4px 3px 0 #23272D, 9px 8px 0 rgba(0, 0, 0, 0.15);
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
   margin-bottom: .6em; }
 
 .wpcf7-form-control-wrap {
