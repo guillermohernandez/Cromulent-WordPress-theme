@@ -1,270 +1,272 @@
  html {
-     width: 100%;
-     height: 100%;
+   width: 100%;
+   height: 100%;
  }
 
  h1 {
-     font-size: 2.5rem;
+   font-size: 2.5rem;
  }
 
  h1.entry-title {
-     font-size: 2.5rem;
+   font-size: 2.5rem;
  }
 
  h2 {
-     font-size: 2rem;
+   font-size: 2rem;
  }
 
  h2.entry-title {
-     font-size: 2rem;
+   font-size: 2rem;
  }
 
  h3 {
-     font-size: 1.75rem
+   font-size: 1.75rem
  }
 
  h3.section-title {
-     font-family: $heading-font;
-     color: $brand-primary;
-     font-weight: 800;
-     text-transform: uppercase;
-     text-decoration: none;
-     text-shadow: 1px 1px 0px $body-font-color, 2px 2px 0px #AAA;
-     backface-visibility: hidden;
-     -webkit-backface-visibility: hidden;
-     -moz-backface-visibility: hidden;
-     margin-bottom: .6em;
+   font-family: $heading-font;
+   color: $brand-primary;
+   font-weight: 800;
+   text-transform: uppercase; //text-shadow: 1px 1px 0px $body-font-color, 2px 2px 0px #AAA;
+   text-shadow: 4px 3px 0 $body-font-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
+   backface-visibility: hidden;
+   -webkit-backface-visibility: hidden;
+   -moz-backface-visibility: hidden;
+   margin-bottom: .6em;
  }
 
  h3.widget-title {
-     font-size: 1.75rem;
+   font-size: 1.75rem;
  }
 
  h4 {
-     font-size: 1.5rem
+   font-size: 1.5rem
  }
 
  h5 {
-     font-size: 1.25rem
+   font-size: 1.25rem
  }
 
  h6 {
-     font-size: 1rem
+   font-size: 1rem
  }
 
  ::selection {
-     background: $brand-primary;
-     color: $body-font-color;
-     text-shadow: none;
+   background: $brand-primary;
+   color: $body-font-color;
+   text-shadow: none;
  }
 
  a:hover,
  a:active {
-     color: $hover-color;
-     text-decoration: none;
-     opacity: 0.9;
-     -webkit-transition: opacity 1s ease;
-     -moz-transition: opacity 1s ease;
-     -ms-transition: opacity 1s ease;
-     transition: opacity 1s ease;
+   color: $hover-color;
+   text-decoration: none;
+   opacity: 0.9;
+   -webkit-transition: opacity 1s ease;
+   -moz-transition: opacity 1s ease;
+   -ms-transition: opacity 1s ease;
+   transition: opacity 1s ease;
  }
 
  article {
-     padding-bottom: 40px;
+   padding-bottom: 40px;
  }
 
  body {
-     font-family: $body-font;
-     color: $body-font-color;
-     background-color: $background-color;
-     line-height: 1.5;
-     padding-bottom: 0px;
-     letter-spacing: -.05rem;
-     margin: 0 0 1rem;
+   font-family: $body-font;
+   color: $body-font-color;
+   background-color: $background-color;
+   line-height: 1.5;
+   padding-bottom: 0px;
+   letter-spacing: -.05rem;
+   margin: 0 0 1rem;
  }
 
  .btn {
-     text-align: center;
-     font-family: $body-font;
-     border-radius: 3px;
-     font-size: 20px;
-     font-weight: 600;
+   text-align: center;
+   font-family: $body-font;
+   border-radius: 3px;
+   font-size: 20px;
+   font-weight: 600;
  }
 
  .btn:hover {
-     opacity: 0.6;
-     -webkit-transition: opacity 1s ease;
-     -moz-transition: opacity 1s ease;
-     -ms-transition: opacity 1s ease;
-     transition: opacity 1s ease;
+   opacity: 0.6;
+   -webkit-transition: opacity 1s ease;
+   -moz-transition: opacity 1s ease;
+   -ms-transition: opacity 1s ease;
+   transition: opacity 1s ease;
+ }
+
+ .btn-dark {
+   background-color: $brand-dark;
+   color: $body-font-color;
  }
 
  .btn-secondary {
-     background-color: $brand-secondary;
-     color: $body-font-color;
+   background-color: $brand-secondary;
+   color: $body-font-color;
  }
 
  .btn-secondary:hover {
-     background-color: $brand-primary;
-     color: $body-font-color;
+   background-color: $brand-primary;
+   color: $body-font-color;
  }
 
  .btn-outline-demo {
-     color: $brand-secondary;
-     background-image: none;
-     background-color: transparent;
-     border-color: $brand-secondary;
+   color: $brand-secondary;
+   background-image: none;
+   background-color: transparent;
+   border-color: $brand-secondary;
  }
 
  .btn-outline-demo:hover {
-     color: $body-font-color;
-     background-color: $brand-secondary;
-     border-color: $brand-secondary;
+   color: $body-font-color;
+   background-color: $brand-secondary;
+   border-color: $brand-secondary;
  }
 
  .btn-outline-demo:focus,
  .btn-outline-demo.focus {
-     box-shadow: 0 0 0 2px rgba(53, 214, 193, 0.5);
+   box-shadow: 0 0 0 2px rgba(53, 214, 193, 0.5);
  }
 
  .btn-outline-demo:active,
  .btn-outline-demo.active,
  .show>.btn-outline-demo.dropdown-toggle {
-     color: $body-font-color;
-     background-color: $brand-secondary;
-     border-color: $brand-secondary;
+   color: $body-font-color;
+   background-color: $brand-secondary;
+   border-color: $brand-secondary;
  }
 
  ul {
-     list-style-type: none;
+   list-style-type: none;
  }
 
  .card {
-     animation-duration: 3s;
-     -webkit-animation-duration: 3s;
-     -moz-animation-duration: 3s;
+   animation-duration: 3s;
+   -webkit-animation-duration: 3s;
+   -moz-animation-duration: 3s;
  }
 
  .card-inverse-dark {
-     background-color: #333;
-     border-color: #333
+   background-color: #333;
+   border-color: #333
  }
 
  .card-title {
-     color: $brand-primary;
+   color: $brand-primary;
  }
 
  .card-primary {
-     background-color: $hover-color;
-     border-color: $hover-color;
+   background-color: $hover-color;
+   border-color: $hover-color;
  }
 
  .comments-area {
-     margin-top: 20px;
+   margin-top: 20px;
  }
 
  .entry-title {
-     font-family: $heading-font;
-     color: $brand-primary;
-     font-weight: 800;
-     text-transform: uppercase;
-     text-decoration: none;
-     text-shadow: 1px 1px 0px $body-font-color, 2px 2px 0px #AAA;
-     backface-visibility: hidden;
-     -webkit-backface-visibility: hidden;
-     -moz-backface-visibility: hidden;
+   font-family: $heading-font;
+   color: $brand-primary;
+   font-weight: 800;
+   text-transform: uppercase;
+   text-shadow: 4px 3px 0 $background-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
+   backface-visibility: hidden;
+   -webkit-backface-visibility: hidden;
+   -moz-backface-visibility: hidden;
  }
 
  .entry-content {
-     font-size: 24px;
-     color: $body-font-color;
-     margin-top: 20px;
-     animation-duration: 3s;
-     -webkit-animation-duration: 3s;
-     -moz-animation-duration: 3s;
+   font-size: 24px;
+   color: $body-font-color;
+   margin-top: 20px;
+   animation-duration: 3s;
+   -webkit-animation-duration: 3s;
+   -moz-animation-duration: 3s;
  }
 
  .entry-meta {
-     margin-bottom: 25px;
+   margin-bottom: 25px;
  }
 
  .hr {
-     border: 0;
-     height: 0; //  border-top: 1px solid rgba(0, 0, 0, 0.1);
-     margin-top: 1.5rem;
-     margin-bottom: 1.5rem;
-     border-top: 1px solid #6E7072;
-     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+   border: 0;
+   height: 0; //  border-top: 1px solid rgba(0, 0, 0, 0.1);
+   margin-top: 1.5rem;
+   margin-bottom: 1.5rem;
+   border-top: 1px solid #6E7072;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
  }
 
  .jumbotron {
-     background-color: rgba(252, 252, 252, 0.02);
-     border-radius: .25em;
-     margin-bottom: 20px;
-     animation-duration: 3s;
-     -webkit-animation-duration: 3s;
-     -moz-animation-duration: 3s;
+   background-color: rgba(252, 252, 252, 0.02);
+   border-radius: .25em;
+   margin-bottom: 20px;
+   animation-duration: 3s;
+   -webkit-animation-duration: 3s;
+   -moz-animation-duration: 3s;
  }
 
  .section-links {
-     padding-left: .5rem;
-     padding-right: .5rem;
-     font-weight: 600;
-     background-color: #00D6BF;
-     color: $body-font-color;
+   padding-left: .5rem;
+   padding-right: .5rem;
+   font-weight: 600;
+   background-color: #00D6BF;
+   color: $body-font-color;
  }
 
  .section-title {
-     font-family: $heading-font;
-     color: $brand-primary;
-     font-weight: 800;
-     text-transform: uppercase;
-     text-decoration: none;
-     text-shadow: 1px 1px 0px $body-font-color, 2px 2px 0px #AAA;
-     backface-visibility: hidden;
-     -webkit-backface-visibility: hidden;
-     -moz-backface-visibility: hidden;
-     margin-bottom: .6em;
+   font-family: $heading-font;
+   color: $brand-primary;
+   font-weight: 800;
+   text-transform: uppercase;
+   text-shadow: 4px 3px 0 $background-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
+   backface-visibility: hidden;
+   -webkit-backface-visibility: hidden;
+   -moz-backface-visibility: hidden;
+   margin-bottom: .6em;
  }
 
- .navbar{
-     font-weight: 600;
-     font-size: 1.15rem;
+ .navbar {
+   font-weight: 600;
+   font-size: 1.15rem;
  }
 
  .nav-links {
-     margin-bottom: 20px;
+   margin-bottom: 20px;
  }
 
  .nav-links a {
-     color: $body-font-color;
+   color: $body-font-color;
  }
 
  .nav-previous,
  .nav-next {
-     background-color: #00BFAA;
-     padding: 15px 40px;
-     text-align: center;
-     color: $body-font-color;
-     font-family: $body-font;
-     border-radius: 3px;
-     font-size: 20px;
-     font-weight: 600;
+   background-color: #00BFAA;
+   padding: 15px 40px;
+   text-align: center;
+   color: $body-font-color;
+   font-family: $body-font;
+   border-radius: 3px;
+   font-size: 20px;
+   font-weight: 600;
  }
 
  .panel {
-     margin-top: 20px;
-     margin-bottom: 15px;
-     border: 1px solid rgba(255, 255, 255, 0.3);
-     padding: .5rem;
-     border-radius: .25em;
-     display: inline-block;
+   margin-top: 20px;
+   margin-bottom: 15px;
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   padding: .5rem;
+   border-radius: .25em;
+   display: inline-block;
  }
 
  .screen-reader-text,
  .wp-caption,
  .wp-caption-text {
-     font-size: 1rem;
+   font-size: 1rem;
  }
 
  img.wp-post-image,
@@ -272,110 +274,108 @@
  figure,
  img,
  #secondary img {
-     max-width: 100%;
-     height: auto;
-     float: none;
-     padding-right: 0px;
+   max-width: 100%;
+   height: auto;
+   float: none;
+   padding-right: 0px;
  }
 
  img.size-full {
-     max-width: 100%;
+   max-width: 100%;
  }
 
  img.alignright {
-     float: right;
-     margin: 0 0 1em 1em
+   float: right;
+   margin: 0 0 1em 1em
  }
 
  img.alignleft {
-     float: left;
-     margin: 0 1em 1em 0
+   float: left;
+   margin: 0 1em 1em 0
  }
 
  img.aligncenter {
-     display: block;
-     margin-left: auto;
-     margin-right: auto
+   display: block;
+   margin-left: auto;
+   margin-right: auto
  }
 
  a img.alignright {
-     float: right;
-     margin: 0 0 1em 1em
+   float: right;
+   margin: 0 0 1em 1em
  }
 
  a img.alignleft {
-     float: left;
-     margin: 0 1em 1em 0
+   float: left;
+   margin: 0 1em 1em 0
  }
 
  a img.aligncenter {
-     display: block;
-     margin-left: auto;
-     margin-right: auto
+   display: block;
+   margin-left: auto;
+   margin-right: auto
  }
 
  .social-nav a:hover {
-     opacity: 0.6;
-     -webkit-transition: opacity 1s ease;
-     -moz-transition: opacity 1s ease;
-     -ms-transition: opacity 1s ease;
-     transition: opacity 1s ease;
+   opacity: 0.6;
+   -webkit-transition: opacity 1s ease;
+   -moz-transition: opacity 1s ease;
+   -ms-transition: opacity 1s ease;
+   transition: opacity 1s ease;
  }
 
  .widget {
-     border: 1px solid rgba(255, 255, 255, 0.3);
-     padding: .5rem;
-     position: relative;
-     display: flex;
-     flex-direction: column;
-     border-radius: 0.25rem;
-     margin-bottom: 10px;
-     margin-top: 10px;
-     animation-duration: 3s;
-     -webkit-animation-duration: 3s;
-     -moz-animation-duration: 3s;
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   padding: .5rem;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   border-radius: 0.25rem;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   animation-duration: 3s;
+   -webkit-animation-duration: 3s;
+   -moz-animation-duration: 3s;
  }
 
  .widget-title {
-     font-family: $heading-font;
-     color: $brand-primary;
-     font-weight: 800;
-     letter-spacing: -.07em;
-     line-height: .9em;
-     text-transform: uppercase;
-     text-decoration: none;
-     text-shadow: 1px 1px 0px $body-font-color, 2px 2px 0px #AAA;
-     backface-visibility: hidden;
-     -webkit-backface-visibility: hidden;
-     -moz-backface-visibility: hidden;
-     margin-bottom: .6em;
+   font-family: $heading-font;
+   color: $brand-primary;
+   font-weight: 800;
+   letter-spacing: -.07em;
+   line-height: .9em;
+   text-transform: uppercase;
+   text-shadow: 4px 3px 0 $body-font-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
+   backface-visibility: hidden;
+   -webkit-backface-visibility: hidden;
+   -moz-backface-visibility: hidden;
+   margin-bottom: .6em;
  }
 
  .widgettitle {
-     font-family: $heading-font;
-     color: $brand-primary;
-     font-weight: 800;
-     letter-spacing: -.07em;
-     line-height: .9em;
-     text-transform: uppercase;
-     text-decoration: none;
-     text-shadow: 1px 1px 0px $body-font-color, 2px 2px 0px #AAA;
-     backface-visibility: hidden;
-     -webkit-backface-visibility: hidden;
-     -moz-backface-visibility: hidden;
-     margin-bottom: .6em;
+   font-family: $heading-font;
+   color: $brand-primary;
+   font-weight: 800;
+   letter-spacing: -.07em;
+   line-height: .9em;
+   text-transform: uppercase;
+   text-shadow: 4px 3px 0 $body-font-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
+   backface-visibility: hidden;
+   -webkit-backface-visibility: hidden;
+   -moz-backface-visibility: hidden;
+   margin-bottom: .6em;
  }
 
  .wpcf7-form-control-wrap {
-     margin-bottom: 20px;
+   margin-bottom: 20px;
  }
 
  .wrapper {
-     background-color: $background-color;
+   background-color: $background-color;
  }
 
  #wrapper-footer-full,
  #wrapper-static-hero {
-     color: $body-font-color;
-     background-color: $background-color; //background: url(../img/dvsup.png);
+   color: $body-font-color;
+   background-color: $background-color; //background: url(../img/dvsup.png);
  }

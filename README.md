@@ -3,13 +3,13 @@ Cromulent WordPress theme
 **Cromulent**: it’s a perfectly cromulent WordPress theme
 
 ## Todo
-- [ ] Create Demo
+- [x] Create Demo
 - [ ] Needs stylin'
-
-## User Stories
+- [ ] Add Post Formats
+- [ ] Critical Path CSS
 
 ## Demo
-
+[Live on memohernandez.com](https://memohernandez.com)
 
 ## Contact
 #### Guillermo Hernandez Jr
