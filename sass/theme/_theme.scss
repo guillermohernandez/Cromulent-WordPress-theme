@@ -79,6 +79,10 @@
    margin: 0 0 1rem;
  }
 
+ .bg-dark{
+   background-color: $background-color;
+ }
+
  .btn {
    text-align: center;
    font-family: $body-font;
@@ -87,13 +91,13 @@
    font-weight: 600;
  }
 
- .btn:hover {
-   opacity: 0.6;
-   -webkit-transition: opacity 1s ease;
-   -moz-transition: opacity 1s ease;
-   -ms-transition: opacity 1s ease;
-   transition: opacity 1s ease;
- }
+//  .btn:hover {
+//    opacity: 0.6;
+//    -webkit-transition: opacity 1s ease;
+//    -moz-transition: opacity 1s ease;
+//    -ms-transition: opacity 1s ease;
+//    transition: opacity 1s ease;
+//  }
 
  .btn-dark {
    background-color: $brand-dark;
