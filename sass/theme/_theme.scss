@@ -239,13 +239,12 @@
  .nav-previous,
  .nav-next {
    background-color: #00BFAA;
-   padding: 15px 40px;
-   text-align: center;
+   padding: 15px 15px;
+   border-radius: 3px;
    color: $body-font-color;
    font-family: $body-font;
-   border-radius: 3px;
-   font-size: 20px;
    font-weight: 600;
+   font-size: 20px;
  }
 
  .panel {
