@@ -28,7 +28,7 @@
    color: $brand-primary;
    font-weight: 800;
    text-transform: uppercase;
-   text-shadow: 4px 3px 0 $body-font-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
+   text-shadow: 4px 3px 0 $background-color, 9px 8px 0 rgba(0, 0, 0, 0.15);
    margin-bottom: .6em;
  }
 
@@ -79,7 +79,7 @@
    margin: 0 0 1rem;
  }
 
- .bg-dark{
+ .bg-dark {
    background-color: $background-color;
  }
 
@@ -90,14 +90,6 @@
    font-size: 20px;
    font-weight: 600;
  }
-
-//  .btn:hover {
-//    opacity: 0.6;
-//    -webkit-transition: opacity 1s ease;
-//    -moz-transition: opacity 1s ease;
-//    -ms-transition: opacity 1s ease;
-//    transition: opacity 1s ease;
-//  }
 
  .btn-dark {
    background-color: $brand-dark;
@@ -375,3 +367,5 @@
    color: $body-font-color;
    background-color: $background-color;
  }
+
+ 
